@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Crownfall · Rendering benchmark</title>
+    <style>
+      body {
+        margin: 0;
+        background: #293b30;
+        color: #eadbbb;
+        font: 14px system-ui;
+      }
+      canvas {
+        position: fixed;
+        inset: 0;
+      }
+      output {
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        padding: 15px;
+        background: #252b23;
+        border: 1px solid #ad9566;
+        white-space: pre-line;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="benchmark"></canvas
+    ><output id="metrics">Warming up renderer…</output>
+    <script type="module" src="/src/qa.ts"></script>
+  </body>
+</html>
